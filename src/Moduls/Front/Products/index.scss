@@ -1,0 +1,15 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    height: 100%;
+    .card {
+        width: 250px;
+        margin: 20px;
+        border-radius: 10px;
+        &:hover {
+            background: #dadada;
+        }
+    }
+}

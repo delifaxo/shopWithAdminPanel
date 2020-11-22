@@ -1,0 +1,15 @@
+.auth-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: calc(100% - 56px);
+
+  form {
+    min-width: 280px;
+    max-width: 600px;
+    @media(max-width: 991px) {
+      min-width: 100px;
+    }
+  }
+}
